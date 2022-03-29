@@ -17,7 +17,7 @@ import { productionViewApi } from "../../services/production";
 import { changeGnb } from "../../modules/action";
 import { useDispatch } from "react-redux";
 import Production from "../Production/Production";
-
+console.log(1);
 const ProductionWrap = styled.section`
   min-height: 100vh;
   background: #000;
