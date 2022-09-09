@@ -39,9 +39,7 @@ const PaginationStyle = styled.ul`
 const Pagination = (props) => {
   const [activeNum, setActiveNum] = useState(1);
 
-  console.log(props);
   const onPage = (idx) => {
-    console.log(idx);
     props.getList(idx);
     setActiveNum(idx);
   };
